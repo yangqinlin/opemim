@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <CheckBox
+        android:id="@+id/check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center_vertical"
+        android:background="@null"
+        android:button="@drawable/person_check"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <com.shinemo.widget.image.CircleImageView
+        android:id="@+id/select_member_item_avatar"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/select_member_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="6dp"
+        android:textColor="@color/s_text_main_color"
+        android:textSize="@dimen/text_size_media" />
+
+
+</LinearLayout>

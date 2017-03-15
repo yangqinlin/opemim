@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--电话-->
+    <string name="icon_font_dianhua1">&#xe6f7;</string>
+    <!--职位-->
+    <string name="icon_font_zhiwei1">&#xe702;</string>
+    <!--解散群-->
+    <string name="icon_font_jiesanqun">&#xe701;</string>
+    <!--调排-->
+    <string name="icon_font_tiaopai">&#xe700;</string>
+    <!--调换-->
+    <string name="icon_font_tiaohuan">&#xe6ff;</string>
+    <!--负责人-->
+    <string name="icon_font_fuzeren">&#xe6fe;</string>
+    <!--加号-->
+    <string name="icon_font_jiahao">&#xe6fd;</string>
+    <!--放大-->
+    <string name="icon_font_fangda">&#xe6fc;</string>
+    <!--缩小-->
+    <string name="icon_font_suoxiao">&#xe6fb;</string>
+    <!--项目进展表-->
+    <string name="icon_font_xiangmujinzhanbiao">&#xe6fa;</string>
+    <!--警示-->
+    <string name="icon_font_jingshi1">&#xe6f9;</string>
+    <!--电话-移除-->
+    <string name="icon_font_dianhua_yichu">&#xe6f8;</string>
+    <!--短号拨打-->
+    <string name="icon_font_duanhaoboda">&#xe6f6;</string>
+    <!--联系人-->
+    <string name="icon_font_lianxiren">&#xe6f5;</string>
+    <!--旗-->
+    <string name="icon_font_qi">&#xe6f4;</string>
+    <!--名片-->
+    <string name="icon_font_mingpian">&#xe6f3;</string>
+    <!--公司-->
+    <string name="icon_font_gongsi1">&#xe66d;</string>
+    <!--左下-->
+    <string name="icon_font_zuoxia">&#xe6f2;</string>
+    <!--右上-->
+    <string name="icon_font_youshang">&#xe6f1;</string>
+    <!--锁-->
+    <string name="icon_font_suo1">&#xe6f0;</string>
+    <!--备注-->
+    <string name="icon_font_beizhu">&#xe6ef;</string>
+    <!--扫一扫-->
+    <string name="icon_font_saoyisao">&#xe62e;</string>
+    <!--今天-->
+    <string name="icon_font_jintian">&#xe6ee;</string>
+    <!--定位_线-->
+    <string name="icon_font_dingwei_xian">&#xe6ed;</string>
+    <!--铃铛_小-->
+    <string name="icon_font_lingdang_xiao">&#xe6ec;</string>
+    <!--切换视图-->
+    <string name="icon_font_qiehuanshitu">&#xe6eb;</string>
+    <!--添加-->
+    <string name="icon_font_tianjia">&#xe637;</string>
+    <!--公告-->
+    <string name="icon_font_gonggao">&#xe6ea;</string>
+    <!--全部-->
+    <string name="icon_font_quanbu">&#xe6e9;</string>
+    <!--部门-->
+    <string name="icon_font_bumen">&#xe6e8;</string>
+    <!--部门-面-->
+    <string name="icon_font_bumen_mian">&#xe6e7;</string>
+    <!--列表视图-->
+    <string name="icon_font_liebiaoshitu">&#xe6e6;</string>
+    <!--#-->
+    <string name="icon_font_icon_test1">&#xe6e5;</string>
+    <!--*-->
+    <string name="icon_font_icon_test">&#xe6e4;</string>
+    <!--聊天_线-->
+    <string name="icon_font_liaotianxian">&#xe610;</string>
+    <!--提示-->
+    <string name="icon_font_tishi">&#xe6e3;</string>
+    <!--更多特权-->
+    <string name="icon_font_gengduotequan">&#xe6e2;</string>
+    <!--编辑-->
+    <string name="icon_font_bianji">&#xe6e1;</string>
+    <!--管理员-->
+    <string name="icon_font_guanliyuan">&#xe6e0;</string>
+    <!--二维码-->
+    <string name="icon_font_erweima">&#xe6df;</string>
+    <!--自主选号-->
+    <string name="icon_font_zizhuxuanhao">&#xe6de;</string>
+    <!--键盘收起-->
+    <string name="icon_font_jianpanshouqi">&#xe6dd;</string>
+    <!--专号专用-->
+    <string name="icon_font_zhuanhaozhuanyong">&#xe6dc;</string>
+    <!--键盘展开-->
+    <string name="icon_font_jianpanzhankai">&#xe6da;</string>
+    <!--删除-->
+    <string name="icon_font_shanchu">&#xe6d8;</string>
+    <!--手动输入-->
+    <string name="icon_font_shoudongshuru">&#xe6d7;</string>
+    <!--照片导入-->
+    <string name="icon_font_zhaopian">&#xe6d0;</string>
+    <!--更多_面-->
+    <string name="icon_font_gengduomian">&#xe6ce;</string>
+    <!--下一封-->
+    <string name="icon_font_xiayifeng">&#xe6cf;</string>
+    <!--上一封-->
+    <string name="icon_font_shangyifeng">&#xe636;</string>
+    <!--搜索-->
+    <string name="icon_font_sousuo">&#xe6db;</string>
+    <!--刷新-->
+    <string name="icon_font_shuaxin">&#xe6d9;</string>
+    <!--qq-->
+    <string name="icon_font_qq">&#xe6d6;</string>
+    <!--朋友圈-->
+    <string name="icon_font_pengyouquan">&#xe6d5;</string>
+    <!--链接-->
+    <string name="icon_font_lianjie">&#xe6d4;</string>
+    <!--浏览器-->
+    <string name="icon_font_liulanqi">&#xe6d3;</string>
+    <!--微信-->
+    <string name="icon_font_weixin">&#xe6d2;</string>
+    <!--时间-->
+    <string name="icon_font_shijian">&#xe6d1;</string>
+    <!--闭眼-->
+    <string name="icon_font_biyan">&#xe6cd;</string>
+    <!--睁眼-->
+    <string name="icon_font_zhengyan">&#xe6cc;</string>
+    <!--收藏-->
+    <string name="icon_font_shoucang">&#xe6cb;</string>
+    <!--部门管理-->
+    <string name="icon_font_bumenguanli">&#xe6ca;</string>
+    <!--我的应用_收藏-->
+    <string name="icon_font_wodeyingyong_shoucang">&#xe6c9;</string>
+    <!--员工-->
+    <string name="icon_font_yuangong">&#xe6c7;</string>
+    <!--锁-->
+    <string name="icon_font_suo">&#xe6c8;</string>
+    <!--企业名片-->
+    <string name="icon_font_qiyemingpian">&#xe6c6;</string>
+    <!--安全_m-->
+    <string name="icon_font_anquanm">&#xe6c5;</string>
+    <!--骚扰电话-->
+    <string name="icon_font_saoraodianhua">&#xe691;</string>
+    <!--我-->
+    <string name="icon_font_wo68">&#xe6c4;</string>
+    <!--语音必达-->
+    <string name="icon_font_yuyinbida">&#xe6c3;</string>
+    <!--文字必达-->
+    <string name="icon_font_wenzibida">&#xe6c2;</string>
+    <!--卡片_消息必达-->
+    <string name="icon_font_qiapianxiaoxibida">&#xe6ae;</string>
+    <!--阅读反馈pre-->
+    <string name="icon_font_yuedufankuipre">&#xe679;</string>
+    <!--M_安全聊天-->
+    <string name="icon_font_manquanliaotian">&#xe6c1;</string>
+    <!--安全聊天-->
+    <string name="icon_font_anquanliaotian">&#xe602;</string>
+    <!--资料-->
+    <string name="icon_font_ziliao">&#xe6c0;</string>
+    <!--添加照片-->
+    <string name="icon_font_tianjiazhaopian">&#xe62d;</string>
+    <!--日程添加-->
+    <string name="icon_font_richengtianjia">&#xe6bf;</string>
+    <!--来电名片-->
+    <string name="icon_font_laidianmingpian">&#xe6be;</string>
+    <!--安全-->
+    <string name="icon_font_anquan">&#xe6bd;</string>
+    <!--审批-->
+    <string name="icon_font_shenpi">&#xe6bc;</string>
+    <!--群设置-->
+    <string name="icon_font_qunshezhi">&#xe6bb;</string>
+    <!--助手-->
+    <string name="icon_font_zhushou">&#xe669;</string>
+    <!--消息2-->
+    <string name="icon_font_xiaoxi2">&#xe67f;</string>
+    <!--工作2-pre2-->
+    <string name="icon_font_gongzuo2pre2">&#xe67b;</string>
+    <!--工作-->
+    <string name="icon_font_gongzuo">&#xe64d;</string>
+    <!--消息1-->
+    <string name="icon_font_xiaoxi1">&#xe643;</string>
+    <!--发事项-->
+    <string name="icon_font_fashixiang">&#xe6ba;</string>
+    <!--月视图-->
+    <string name="icon_font_yueshitu">&#xe666;</string>
+    <!--统计视图-->
+    <string name="icon_font_tongjishitu">&#xe662;</string>
+    <!--周视图-->
+    <string name="icon_font_zhoushitu">&#xe623;</string>
+    <!--导航-->
+    <string name="icon_font_daohang">&#xe698;</string>
+    <!--拍摄扫描-->
+    <string name="icon_font_paishesaomiao">&#xe68b;</string>
+    <!--已取消-->
+    <string name="icon_font_yiquxiao">&#xe68a;</string>
+    <!--位置-->
+    <string name="icon_font_weizhi">&#xe689;</string>
+    <!--好友-->
+    <string name="icon_font_haoyou">&#xe634;</string>
+    <!--手机通讯录-->
+    <string name="icon_font_shoujitongxunlu">&#xe62a;</string>
+    <!--群-->
+    <string name="icon_font_qun">&#xe61e;</string>
+    <!--公告1-->
+    <string name="icon_font_gonggao1">&#xe687;</string>
+    <!--公告2-->
+    <string name="icon_font_gonggao2">&#xe682;</string>
+    <!--任务-->
+    <string name="icon_font_renwu">&#xe63c;</string>
+    <!--图片-->
+    <string name="icon_font_tupian">&#xe63b;</string>
+    <!--投票-->
+    <string name="icon_font_toupiao">&#xe620;</string>
+    <!--我的应用1-->
+    <string name="icon_font_wodeyingyong1">&#xe64c;</string>
+    <!--通讯录1-->
+    <string name="icon_font_tongxunlu1">&#xe644;</string>
+    <!--通讯录2-->
+    <string name="icon_font_tongxunlu2">&#xe63a;</string>
+    <!--我的应用2-->
+    <string name="icon_font_wodeyingyong2">&#xe639;</string>
+    <!--转发_对勾-->
+    <string name="icon_font_zhuanfaduigou">&#xe661;</string>
+    <!--名片夹2-->
+    <string name="icon_font_mingpianjia2">&#xe663;</string>
+    <!--团队通知-->
+    <string name="icon_font_tuanduitongzhi">&#xe6b9;</string>
+    <!--个人提醒-->
+    <string name="icon_font_gerentixing">&#xe6b8;</string>
+    <!--会议邀请-->
+    <string name="icon_font_huiyiyaoqing">&#xe6b7;</string>
+    <!--事项-->
+    <string name="icon_font_shixiang">&#xe6ac;</string>
+    <!--聊天-->
+    <string name="icon_font_liaotian">&#xe6b6;</string>
+    <!--邮件-->
+    <string name="icon_font_youjian">&#xe6b2;</string>
+    <!--日程2-->
+    <string name="icon_font_richeng2">&#xe6ab;</string>
+    <!--存文件-->
+    <string name="icon_font_cunwenjian">&#xe667;</string>
+    <!--多方通话-->
+    <string name="icon_font_duofangtonghua">&#xe665;</string>
+    <!--健康记步-->
+    <string name="icon_font_jiankangjibu">&#xe664;</string>
+    <!--我的应用_新手上路-->
+    <string name="icon_font_wodeyingyongxinshoushanglu">&#xe6b5;</string>
+    <!--我的应用_设置-->
+    <string name="icon_font_wodeyingyongshezhi">&#xe6b4;</string>
+    <!--我的应用_个人资料-->
+    <string name="icon_font_wodeyingyonggerenziliao">&#xe6b3;</string>
+    <!--成员信息修改-->
+    <string name="icon_font_chengyuanxinxixiugai">&#xe6b1;</string>
+    <!--部门数据-->
+    <string name="icon_font_bumenshuju">&#xe6b0;</string>
+    <!--签到-定位-->
+    <string name="icon_font_qiandaodingwei">&#xe6af;</string>
+    <!--签到-地图-复位-->
+    <string name="icon_font_qiandaoditufuwei">&#xe6ad;</string>
+    <!--我2-->
+    <string name="icon_font_wo2">&#xe6aa;</string>
+    <!--老板-->
+    <string name="icon_font_laoban">&#xe6a9;</string>
+    <!--分级管理员-->
+    <string name="icon_font_fenjiguanliyuan">&#xe6a8;</string>
+    <!--箭头_admin-->
+    <string name="icon_font_jiantouadmin">&#xe6a7;</string>
+    <!--拨打电话_管理-->
+    <string name="icon_font_bodadianhuaguanli">&#xe6a6;</string>
+    <!--管理员指南-->
+    <string name="icon_font_guanliyuanzhinan">&#xe6a5;</string>
+    <!--管理员设置-->
+    <string name="icon_font_guanliyuanshezhi">&#xe6a4;</string>
+    <!--电脑-->
+    <string name="icon_font_diannao">&#xe6a3;</string>
+    <!--企业数据-->
+    <string name="icon_font_qiyeshuju">&#xe6a2;</string>
+    <!--一键邀请-->
+    <string name="icon_font_yijianyaoqing">&#xe6a1;</string>
+    <!--HR-->
+    <string name="icon_font_hr">&#xe6a0;</string>
+    <!--行政-->
+    <string name="icon_font_xingzheng">&#xe69f;</string>
+    <!--管理人员-->
+    <string name="icon_font_guanlirenyuan">&#xe69e;</string>
+    <!--垃圾桶-->
+    <string name="icon_font_lajitong">&#xe69d;</string>
+    <!--减号-->
+    <string name="icon_font_jianhao">&#xe69c;</string>
+    <!--赞-->
+    <string name="icon_font_zan83">&#xe694;</string>
+    <!--警示-->
+    <string name="icon_font_jingshi">&#xe69b;</string>
+    <!--登录-展开-->
+    <string name="icon_font_dengluzhankai">&#xe69a;</string>
+    <!--首页关闭-->
+    <string name="icon_font_shouyeguanbi">&#xe695;</string>
+    <!--切换-->
+    <string name="icon_font_iconfontliuzhuan">&#xe699;</string>
+    <!--传送中进度条-邮件-->
+    <string name="icon_font_chuansongzhongjindutiaoyoujian">&#xe697;</string>
+    <!--空进度条-邮件-->
+    <string name="icon_font_kongjindutiaoyoujian">&#xe696;</string>
+    <!--pk榜单-->
+    <string name="icon_font_pkbangdan67">&#xe693;</string>
+    <!--运动-->
+    <string name="icon_font_yundong66">&#xe692;</string>
+    <!--任务-排序-->
+    <string name="icon_font_renwupaixu">&#xe690;</string>
+    <!--服务号-键盘-更多-->
+    <string name="icon_font_fuwuhaojianpangengduo">&#xe68f;</string>
+    <!--服务号-切换键盘-->
+    <string name="icon_font_fuwuhaoqiehuanjianpan">&#xe68d;</string>
+    <!--服务号-键盘-->
+    <string name="icon_font_fuwuhaojianpan">&#xe68c;</string>
+    <!--段落标识-->
+    <string name="icon_font_duanluobiaoshi">&#xe68e;</string>
+    <!--服务号-->
+    <string name="icon_font_fuwuhao">&#xe688;</string>
+    <!--催一下-->
+    <string name="icon_font_weibiaoti101">&#xe686;</string>
+    <!--邀请同事-->
+    <string name="icon_font_yaoqingtongshi">&#xe685;</string>
+    <!--评论-->
+    <string name="icon_font_weibiaoti102">&#xe684;</string>
+    <!--时间-->
+    <string name="icon_font_weibiaoti103">&#xe683;</string>
+    <!--圆未选中-->
+    <string name="icon_font_masheng90">&#xe681;</string>
+    <!--圆选中-->
+    <string name="icon_font_masheng89">&#xe66e;</string>
+    <!--工作1-->
+    <string name="icon_font_gongzuo1">&#xe658;</string>
+    <!--首页_收起-->
+    <string name="icon_font_shouyeshouqi">&#xe680;</string>
+    <!--公费电话-->
+    <string name="icon_font_gongfeidianhua">&#xe676;</string>
+    <!--方选框-->
+    <string name="icon_font_fangxuankuang">&#xe67e;</string>
+    <!--方选中-->
+    <string name="icon_font_fangxuanzhong">&#xe67d;</string>
+    <!--工作2-pre-->
+    <string name="icon_font_gongzuo2pre">&#xe67c;</string>
+    <!--播放-->
+    <string name="icon_font_bofang">&#xe67a;</string>
+    <!--阅读反馈-->
+    <string name="icon_font_yuedufankui">&#xe678;</string>
+    <!--公费电话-安卓-->
+    <string name="icon_font_gongfeidianhuaanzhuo">&#xe677;</string>
+    <!--签到-地点异常-->
+    <string name="icon_font_qiandaodidianyichang">&#xe675;</string>
+    <!--创建时间-->
+    <string name="icon_font_chuangjianshijian">&#xe674;</string>
+    <!--更新时间-->
+    <string name="icon_font_gengxinshijian">&#xe673;</string>
+    <!--子任务-->
+    <string name="icon_font_zirenwu">&#xe672;</string>
+    <!--正序-->
+    <string name="icon_font_zhengxu">&#xe671;</string>
+    <!--倒序-->
+    <string name="icon_font_daoxu">&#xe670;</string>
+    <!--首页_展开-->
+    <string name="icon_font_shouyezhankai">&#xe66f;</string>
+    <!--精彩优惠-->
+    <string name="icon_font_jingcaiyouhui">&#xe66c;</string>
+    <!--导航栏返回-->
+    <string name="icon_font_daohanglanfanhui">&#xe638;</string>
+    <!--赢福利-->
+    <string name="icon_font_yingfuli">&#xe612;</string>
+    <!--邮件添加-->
+    <string name="icon_font_youjiantianjia">&#xe66b;</string>
+    <!--个人详情-编辑-->
+    <string name="icon_font_gerenxiangqingbianji">&#xe605;</string>
+    <!--关闭-->
+    <string name="icon_font_guanbi2">&#xe66a;</string>
+    <!--返回-->
+    <string name="icon_font_fanhui">&#xe668;</string>
+    <!--工作2-->
+    <string name="icon_font_youban2">&#xe659;</string>
+    <!--转发-->
+    <string name="icon_font_zhuanfaa">&#xe607;</string>
+    <!--优存-上传文件-->
+    <string name="icon_font_youcunshangchuanwenjian">&#xe601;</string>
+    <!--通讯录设置-->
+    <string name="icon_font_tongxunlushezhi">&#xe600;</string>
+    <!--周-->
+    <string name="icon_font_zhou">&#xe660;</string>
+    <!--展开-->
+    <string name="icon_font_zhankai">&#xe65f;</string>
+    <!--云识别-->
+    <string name="icon_font_yunshibie">&#xe65e;</string>
+    <!--月-->
+    <string name="icon_font_yue">&#xe65d;</string>
+    <!--语音-->
+    <string name="icon_font_yuyin">&#xe65c;</string>
+    <!--消息通知-->
+    <string name="icon_font_youxiaozhushou">&#xe65b;</string>
+    <!--云盘-->
+    <string name="icon_font_youcun">&#xe65a;</string>
+    <!--已删除-->
+    <string name="icon_font_yishanchu">&#xe657;</string>
+    <!--移动-->
+    <string name="icon_font_yidong">&#xe656;</string>
+    <!--选中-->
+    <string name="icon_font_xuanzhong">&#xe655;</string>
+    <!--星标选中-->
+    <string name="icon_font_xingbiaoxuanzhong">&#xe654;</string>
+    <!--星标-->
+    <string name="icon_font_xingbiao">&#xe653;</string>
+    <!--信息-->
+    <string name="icon_font_xinxi">&#xe652;</string>
+    <!--新手上路-->
+    <string name="icon_font_xinshoushanglu">&#xe651;</string>
+    <!--写邮件-->
+    <string name="icon_font_xieyoujian">&#xe650;</string>
+    <!--笑脸-->
+    <string name="icon_font_xiaolian">&#xe64f;</string>
+    <!--消息已读反馈-->
+    <string name="icon_font_xiaoxiyidu">&#xe64e;</string>
+    <!--发送短信-->
+    <string name="icon_font_xiaoxi">&#xe64b;</string>
+    <!--下载-->
+    <string name="icon_font_xiazai">&#xe64a;</string>
+    <!--下一步1-->
+    <string name="icon_font_xiayibu1">&#xe649;</string>
+    <!--下一步-->
+    <string name="icon_font_xiayibu">&#xe648;</string>
+    <!--系统消息-->
+    <string name="icon_font_xitongxiaoxi">&#xe647;</string>
+    <!--我收到的-->
+    <string name="icon_font_woshoudaode">&#xe646;</string>
+    <!--我发出的-->
+    <string name="icon_font_wofachude">&#xe645;</string>
+    <!--我-->
+    <string name="icon_font_wo">&#xe642;</string>
+    <!--问题-->
+    <string name="icon_font_wenti">&#xe641;</string>
+    <!--文件-->
+    <string name="icon_font_wenjian">&#xe640;</string>
+    <!--未选中-->
+    <string name="icon_font_weixuanzhong">&#xe63f;</string>
+    <!--退出1-->
+    <string name="icon_font_tuichu1">&#xe63e;</string>
+    <!--退出-->
+    <string name="icon_font_tuichu">&#xe63d;</string>
+    <!--输入号码-->
+    <string name="icon_font_shuruhaoma">&#xe635;</string>
+    <!--手机-->
+    <string name="icon_font_shouji">&#xe633;</string>
+    <!--手动添加-->
+    <string name="icon_font_shoudongtianjia">&#xe632;</string>
+    <!--收起-->
+    <string name="icon_font_shouqi">&#xe631;</string>
+    <!--设置-->
+    <string name="icon_font_shezhi">&#xe630;</string>
+    <!--筛选-->
+    <string name="icon_font_shaixuan">&#xe62f;</string>
+    <!--日程-->
+    <string name="icon_font_richeng">&#xe62c;</string>
+    <!--群聊-->
+    <string name="icon_font_qunliao">&#xe62b;</string>
+    <!--切换企业-->
+    <string name="icon_font_qiehuanqiye">&#xe629;</string>
+    <!--签到-->
+    <string name="icon_font_qiandao">&#xe628;</string>
+    <!--排序-->
+    <string name="icon_font_paixu">&#xe627;</string>
+    <!--拍照-->
+    <string name="icon_font_paizhao">&#xe626;</string>
+    <!--名片夹-->
+    <string name="icon_font_mingpianjia">&#xe625;</string>
+    <!--垃圾邮件-->
+    <string name="icon_font_lajiyoujian">&#xe624;</string>
+    <!--键盘-->
+    <string name="icon_font_jianpan">&#xe622;</string>
+    <!--加好友-->
+    <string name="icon_font_jiahaoyou">&#xe621;</string>
+    <!--红包-->
+    <string name="icon_font_hongbao">&#xe61f;</string>
+    <!--关于我们-->
+    <string name="icon_font_guanyuwomen">&#xe61d;</string>
+    <!--关闭-->
+    <string name="icon_font_guanbi">&#xe61c;</string>
+    <!--公司-->
+    <string name="icon_font_gongsi">&#xe61b;</string>
+    <!--更多2-->
+    <string name="icon_font_gengduo2">&#xe61a;</string>
+    <!--更多1-->
+    <string name="icon_font_gengduo1">&#xe619;</string>
+    <!--更多-->
+    <string name="icon_font_gengduo">&#xe618;</string>
+    <!--附件1-->
+    <string name="icon_font_fujian">&#xe617;</string>
+    <!--服务电话-->
+    <string name="icon_font_fuwudianhua">&#xe616;</string>
+    <!--分享我的名片-->
+    <string name="icon_font_fenxiangwodemingpian">&#xe615;</string>
+    <!--分享文件-->
+    <string name="icon_font_fenxiangwenjian">&#xe614;</string>
+    <!--返回1-->
+    <string name="icon_font_fanhui1">&#xe613;</string>
+    <!--邮件-->
+    <string name="icon_font_fayoujian">&#xe611;</string>
+    <!--对勾11-->
+    <string name="icon_font_duigou11">&#xe60f;</string>
+    <!--对勾1-->
+    <string name="icon_font_duigou1">&#xe60e;</string>
+    <!--对勾-->
+    <string name="icon_font_duigou">&#xe60d;</string>
+    <!--电话会议-->
+    <string name="icon_font_dianhuahuiyi">&#xe60c;</string>
+    <!--电话-->
+    <string name="icon_font_dianhua">&#xe60b;</string>
+    <!--待发送-->
+    <string name="icon_font_daifasong">&#xe60a;</string>
+    <!--创建审批-->
+    <string name="icon_font_chuangjianshenpi">&#xe609;</string>
+    <!--草稿箱-->
+    <string name="icon_font_caogaoxiang">&#xe608;</string>
+    <!--拨出电话-->
+    <string name="icon_font_bochudianhua">&#xe606;</string>
+    <!--保存-->
+    <string name="icon_font_baocun">&#xe604;</string>
+    <!--安全与隐患-->
+    <string name="icon_font_anquanyuyinhuan">&#xe603;</string>
+</resources>

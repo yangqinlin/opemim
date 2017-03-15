@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/chat_item_style"
+    android:orientation="vertical">
+
+    <include layout="@layout/chat_common_item" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <include android:visibility="gone" layout="@layout/chat_select_box" />
+        <include layout="@layout/chat_common_avatar"/>
+
+        <com.shinemo.widget.audio.progress.RecordProgressView
+            android:id="@+id/voice_bg"
+            style="@style/chat_recieve_style"
+            android:layout_width="wrap_content" />
+
+        <ImageView
+            android:id="@+id/chat_audio_dot"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_alignBottom="@+id/voice_bg"
+            android:layout_alignTop="@+id/voice_bg"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@+id/voice_bg"
+            android:src="@drawable/xx_list_ic_di" />
+
+    </RelativeLayout>
+
+</LinearLayout>

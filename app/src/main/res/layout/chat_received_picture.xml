@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/chat_item_style"
+    android:orientation="vertical">
+
+    <include layout="@layout/chat_common_item" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include android:visibility="gone" layout="@layout/chat_select_box" />
+        <include layout="@layout/chat_common_avatar"/>
+
+        <com.shinemo.widget.image.RoundedCornersImage
+            android:id="@+id/picture_receive_image"
+            style="@style/chat_recieve_style"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            app:cornerRadius="10dp" />
+
+        <View
+            android:id="@+id/picture_receive_image_mask"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/receive_avatar"
+            android:background="@drawable/xx_hh_pic" />
+    </RelativeLayout>
+
+</LinearLayout>

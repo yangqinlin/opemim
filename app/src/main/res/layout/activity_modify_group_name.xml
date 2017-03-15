@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:fitsSystemWindows="true"
+              android:orientation="vertical" >
+
+    <RelativeLayout style="@style/title_layout_style" >
+
+        <com.shinemo.widget.fonticon.FontIcon
+            android:id="@+id/back" style="@style/back_style" />
+
+        <TextView
+            style="@style/title_textview_style"
+            android:text="@string/group_name" />
+
+        <TextView
+            android:id="@+id/group_name_save"
+            style="@style/title_right_style"
+            android:text="保存" />
+    </RelativeLayout>
+
+    <include layout="@layout/divider" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="20dp"
+        layout="@layout/divider" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/group_name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/c_ff"
+            android:textCursorDrawable="@drawable/edit_cursor"
+            android:paddingBottom="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="60dp"
+            android:maxLength="20"
+            android:paddingTop="@dimen/activity_horizontal_margin"
+            android:textColor="@color/s_text_main_color"
+            android:textSize="@dimen/text_size_media" />
+
+        <ImageView
+            android:id="@+id/group_name_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:src="@drawable/btn_login_edittext_clear" />
+    </RelativeLayout>
+
+    <include layout="@layout/divider" />
+
+</LinearLayout>

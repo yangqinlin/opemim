@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/chat_item_style"
+    android:orientation="vertical">
+
+    <include layout="@layout/chat_common_item" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include android:visibility="gone" layout="@layout/chat_select_box" />
+
+        <ImageView
+            android:id="@+id/send_avatar"
+            android:layout_width="@dimen/chat_avatar_size"
+            android:layout_height="@dimen/chat_avatar_size"
+            android:layout_alignParentRight="true"
+            android:scaleType="centerCrop" />
+
+        <com.shinemo.widget.image.RoundedCornersImage
+            android:id="@+id/picture_send_image"
+            style="@style/chat_left_avatar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            app:cornerRadius="10dp" />
+
+        <View
+            android:id="@+id/picture_send_image_mask"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/xx_hh_pic_red" />
+
+        <ImageView
+            android:id="@+id/send_status"
+            style="@style/chat_send_fail_style"
+            android:layout_toLeftOf="@+id/picture_send_image" />
+
+        <ProgressBar
+            android:id="@+id/send_progress"
+            style="@style/chat_progress_style"
+            android:layout_toLeftOf="@+id/picture_send_image" />
+
+        <TextView
+            android:id="@+id/unread_count"
+            style="@style/chat_unread_style"
+            android:layout_alignBottom="@+id/picture_send_image"
+            android:layout_toLeftOf="@+id/picture_send_image" />
+    </RelativeLayout>
+
+</LinearLayout>

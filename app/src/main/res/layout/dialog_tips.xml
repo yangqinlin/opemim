@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/tips_bg"
+    android:padding="0dp"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_num_tips"
+        android:textColor="@color/c_ff"
+        android:gravity="center"
+        android:text="9"
+        android:textSize="@dimen/dialog_tips_textSize_large"
+        android:layout_width="@dimen/dialog_tips_num_height"
+        android:layout_height="@dimen/dialog_tips_num_height" />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_line1_tips"
+        android:textColor="@color/c_ff"
+        android:gravity="center"
+        android:text="@string/record_too_short"
+        android:textSize="@dimen/dialog_tips_textSize_small"
+        android:layout_width="@dimen/dialog_tips_textLine1_width"
+        android:layout_height="@dimen/dialog_tips_textLine1_height" />
+
+    <TextView
+        android:id="@+id/tv_line2_tips"
+        android:layout_width="@dimen/dialog_tips_textLine2_width"
+        android:layout_height="@dimen/dialog_tips_textLine2_height"
+        android:gravity="center"
+        android:text="@string/dialog_tips_line2"
+        android:lineSpacingExtra="@dimen/dialog_tips_text_spacing"
+        android:textColor="@color/c_ff"
+        android:textSize="@dimen/dialog_tips_textSize_mid" />
+
+</RelativeLayout>

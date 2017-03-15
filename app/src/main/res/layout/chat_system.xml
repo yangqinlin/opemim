@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="10dp"
+    android:paddingTop="5dp" >
+
+    <include layout="@layout/chat_common_item"/>
+
+    <TextView
+        android:id="@+id/chat_system_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/xx_time"
+        android:drawablePadding="2dp"
+        android:textColor="@color/c_ff"
+        android:textSize="@dimen/text_size_media_small" />
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:id="@+id/chat_history_devide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1px"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:background="@color/s_div_list_item_color"
+            android:layout_marginLeft="45dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="11sp"
+            android:text="@string/chat_history"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1px"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:background="@color/s_div_list_item_color"
+            android:layout_marginRight="45dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/timestamp"
+        style="@style/chat_text_date_style"/>
+
+</merge>

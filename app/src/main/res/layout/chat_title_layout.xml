@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                style="@style/title_layout_style">
+
+    <com.shinemo.widget.fonticon.FontIcon
+        android:id="@+id/back"
+        style="@style/back_style" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/title_textview_style"
+        />
+
+    <com.shinemo.widget.fonticon.FontIcon
+        android:id="@+id/chat_detail_right"
+        style="@style/title_right_style"
+        android:text="@string/icon_font_qunshezhi"
+        android:visibility="gone"/>
+
+    <View
+        style="@style/title_divider_style"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

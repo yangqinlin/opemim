@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="9dp">
+
+    <RelativeLayout
+        android:id="@+id/group_layout"
+        android:layout_width="@dimen/group_avatar_size"
+        android:layout_height="@dimen/group_avatar_size">
+
+        <com.shinemo.widget.image.CircleImageView
+            android:id="@+id/user_avatar"
+            android:layout_width="@dimen/group_avatar_size"
+            android:layout_height="@dimen/group_avatar_size"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/group_member_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/xx_xq_btn_sc" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_below="@+id/group_layout"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:maxWidth="@dimen/group_avatar_buttomtext_max_width"
+        android:singleLine="true"
+        android:textColor="@color/c_66"
+        android:textSize="@dimen/font_third_grade" />
+
+
+
+</RelativeLayout>

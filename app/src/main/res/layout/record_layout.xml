@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/audio_root_view"
+    android:layout_width="match_parent"
+    android:layout_height="189dp"
+    android:background="#f1f1f1"
+    android:visibility="visible">
+
+    <com.shinemo.widget.audio.VoiceView
+        android:id="@+id/left_voice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_record_tips"
+        android:layout_alignTop="@id/tv_record_tips"
+        android:layout_marginRight="9dp"
+        android:layout_marginLeft="30dp"
+        app:maxHeight="30dp"
+        android:layout_toLeftOf="@+id/tv_record_tips" />
+
+    <TextView
+        android:id="@+id/tv_record_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="21dp"
+        android:paddingTop="20dp"
+        android:text="@string/max_record_length"
+        android:textColor="@color/voice_normal"
+        android:textSize="15sp" />
+
+    <com.shinemo.widget.audio.VoiceView
+        android:id="@+id/right_voice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_record_tips"
+        android:layout_alignTop="@id/tv_record_tips"
+        android:layout_marginLeft="9dp"
+        android:layout_toRightOf="@+id/tv_record_tips"
+        android:layout_marginRight="30dp"
+        app:maxHeight="30dp"/>
+    <!--android:visibility="gone"-->
+
+    <LinearLayout
+        android:id="@+id/voice_action_layout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tv_record_tips"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_record_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:src="@drawable/yb_btn_yy_st" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/ll_center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <!--<ImageView-->
+                <!--android:id="@+id/iv_record"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:src="@drawable/im_audio_send" />-->
+
+
+            <com.shinemo.widget.round.CommonRound
+                android:id="@+id/iv_record"
+                android:layout_centerInParent="true"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:commonRoundColor="@color/c_brand"
+                app:commonRoundType="FILL"/>
+
+            <TextView
+                android:id="@+id/recordState"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/activity_bg"
+                android:text="@string/press_to_speak"/>
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_record_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/yb_btn_yy_sx" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

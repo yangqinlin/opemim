@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/chat_item_style"
+    android:orientation="vertical">
+
+    <!--<include layout="@layout/chat_common_item"/>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/chat_common_avatar"/>
+
+        <include
+            android:id="@+id/message_receive_unknow"
+            layout="@layout/chat_qp_common_item"
+            style="@style/chat_recieve_style"
+            android:layout_width="@dimen/chat_disk_width"
+            android:layout_height="@dimen/chat_disk_height"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout style="@style/title_layout_style">
+
+        <com.shinemo.widget.fonticon.FontIcon
+            android:id="@+id/back"
+            style="@style/back_style"/>
+
+        <TextView
+            style="@style/title_textview_style"
+            android:text="我的群"/>
+
+        <com.shinemo.widget.fonticon.FontIcon
+            android:id="@+id/group_add"
+            style="@style/title_right_style"
+            android:text="新建"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/s_div_list_item_color"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_my_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

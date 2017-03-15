@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/chat_item_style"
+    android:orientation="vertical">
+
+    <include  layout="@layout/chat_common_item" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.shinemo.widget.image.CircleImageView
+            android:id="@+id/send_avatar"
+            android:layout_width="@dimen/chat_avatar_size"
+            android:layout_height="@dimen/chat_avatar_size"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop" />
+
+        <FrameLayout
+            android:id="@+id/message_send_layout"
+            style="@style/chat_left_avatar"
+            android:layout_width="wrap_content"
+            android:background="@drawable/xx_qp_me">
+
+            <com.rockerhieu.emojicon.EmojiconTextView
+                android:id="@+id/message_send_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:gravity="left|center"
+                android:lineSpacingExtra="1dp"
+                android:maxWidth="225.0dip"
+                android:textColor="@color/c_ff"
+                android:textSize="15sp" />
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/send_status"
+            style="@style/chat_send_fail_style"
+            android:layout_toLeftOf="@id/message_send_layout" />
+
+        <ProgressBar
+            android:id="@+id/send_progress"
+            style="@style/chat_progress_style"
+            android:layout_toLeftOf="@id/message_send_layout" />
+
+        <TextView
+            android:id="@+id/unread_count"
+            style="@style/chat_unread_style"
+            android:layout_alignBottom="@id/message_send_layout"
+            android:layout_toLeftOf="@id/message_send_layout" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:id="@+id/record_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/xx_qp_im_back"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical">
+
+            <com.shinemo.widget.audio.progress.RoundProgressBar
+                android:id="@+id/progress_for_audio_left"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android_custom:roundProgressColor="@color/c_brand"
+                android_custom:roundWidth="2dp"
+                android_custom:textIsDisplayable="false"
+                android_custom:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/play_state"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/xx_qp_yy_bf_red"
+                android:visibility="visible" />
+
+            <ProgressBar
+                android:id="@+id/progressBar_for_loading"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/play_state"
+                android:layout_alignLeft="@+id/play_state"
+                android:layout_alignRight="@+id/play_state"
+                android:layout_alignTop="@+id/play_state"
+                android:layout_centerInParent="true"
+                android:visibility="visible" />
+
+
+        </RelativeLayout>
+
+        <com.shinemo.widget.audio.VoiceWaveView
+            android:id="@+id/audio_wave"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_gravity="center_vertical"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="6dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/recode_time_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="00:01"
+                android:textColor="@color/c_brand"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/delete_record"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/clear_btn_selector" />
+
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <View style="@style/horizontal_light_thin_divider"/>
+
+    <LinearLayout
+        android:id="@+id/bottomContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/c_ff"
+        android:orientation="horizontal">
+
+        <com.shinemo.widget.fonticon.FontIcon
+            android:id="@+id/chat_detail_voice"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_item_click_transparent"
+            android:gravity="center"
+            android:text="@string/icon_font_yuyin"
+            android:textColor="@color/s_text_sub_main_color"
+            android:textSize="@dimen/s_chat_icon_size"/>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_weight="1">
+
+            <com.rockerhieu.emojicon.EmojiconEditText
+                android:id="@+id/chat_detail_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:ems="10"
+                android:maxLength="1000"
+                android:maxLines="4"
+                android:minHeight="35dp"
+                android:paddingRight="30dp"
+                android:textCursorDrawable="@drawable/edit_cursor"
+                android:textSize="@dimen/text_size_media">
+
+                <requestFocus/>
+            </com.rockerhieu.emojicon.EmojiconEditText>
+
+            <View
+                android:id="@+id/bottom_line"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_below="@+id/chat_detail_text"
+                android:background="@color/s_div_list_item_color"/>
+
+        </RelativeLayout>
+
+        <com.shinemo.widget.fonticon.FontIcon
+            android:id="@+id/chat_smile_btn"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_item_click_transparent"
+            android:gravity="center"
+            android:text="@string/icon_font_xiaolian"
+            android:textColor="@color/s_text_sub_main_color"
+            android:textSize="@dimen/s_chat_icon_size"/>
+
+        <com.shinemo.widget.fonticon.FontIcon
+            android:id="@+id/chat_detail_add"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_item_click_transparent"
+            android:gravity="center"
+            android:text="@string/icon_font_tianjia"
+            android:textColor="@color/s_text_sub_main_color"
+            android:textSize="@dimen/s_chat_icon_size"/>
+
+        <Button
+            android:id="@+id/chat_detail_send"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/white_item_click_transparent"
+            android:gravity="center"
+            android:text="@string/send"
+            android:textColor="@color/c_brand"
+            android:textSize="@dimen/text_size_media"
+            android:visibility="gone"/>
+    </LinearLayout>
+</LinearLayout>

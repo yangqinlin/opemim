@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/yangqinlin/work/IMDemo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/yangqinlin/work/IMDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4f5fa638fd9a9f5def6e2e69951b09a82b573b67/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yangqinlin/work/IMDemo/contacts/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee8905c4764fa67935f7fa2ab5c7ee6d299e35be">
+        <dex dex="/Users/yangqinlin/work/IMDemo/app/build/intermediates/pre-dexed/debug/classes_7ed1d420bce7f706d8773c40803319d845d1ed6b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yangqinlin/work/IMDemo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3ba4bb424117428ecc4d574f0ea108ab91a5cfef">
+        <dex dex="/Users/yangqinlin/work/IMDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_00ddde514b1dc4b47d2b9aaa56ea31c6bedfd381/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yangqinlin/work/IMDemo/common/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ff67d484d4a3beadf8380789551a5403f6c3af01">
+        <dex dex="/Users/yangqinlin/work/IMDemo/app/build/intermediates/pre-dexed/debug/classes_92f4451d9d17c394a8db40c8d8e71d6c4f883607.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/yangqinlin/.android/build-cache/395b6e51e1714beca4865503d5366935e9c409e3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b2d31d2e4ac50f7417ca5b344674ead8255ea8d5">
+        <dex dex="/Users/yangqinlin/work/IMDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_200ee0679bf20efcc99a0a9bcb73ffda20ff70f4/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yangqinlin/work/IMDemo/openim/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b2d31d2e4ac50f7417ca5b344674ead8255ea8d5">
+        <dex dex="/Users/yangqinlin/work/IMDemo/app/build/intermediates/pre-dexed/debug/classes_9bf9fc06286846704e4af70d1dfa29bd0f1b2ce2.jar" />
+    </item>
+
+</items>

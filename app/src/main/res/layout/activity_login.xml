@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shinemo.imdemo.login.LoginActivity">
+
+    <ImageView
+        android:id="@+id/userHead"
+        android:background="@drawable/avatar_def"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true" />
+
+
+    <com.shinemo.widget.textview.PhoneEditText
+        android:id="@+id/tvPhone"
+        style="@style/LoginEditTextStyle"
+        android:layout_below="@+id/userHead"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:digits="0123456789"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/hint_plz_enter_phone_number"
+        android:inputType="phone"
+        android:paddingBottom="2dp" />
+
+    <ImageView
+        android:id="@+id/clear_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tvPhone"
+        android:layout_alignTop="@id/tvPhone"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/tvPhone"
+        android:src="@drawable/clear_btn_selector"
+        android:visibility="gone" />
+
+    <View
+        style="@style/login_input_center_lineview"
+        android:layout_width="@dimen/login_et_width"
+        android:layout_height="1dp"
+        android:layout_below="@id/tvPhone"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/tvPasswd"
+        style="@style/LoginEditTextStyle"
+        android:layout_below="@+id/tvPhone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:hint="@string/hint_plz_enter_passwd"
+        android:inputType="textPassword" />
+
+    <ImageView
+        android:id="@+id/clear_password_content"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@id/tvPasswd"
+        android:layout_alignTop="@id/tvPasswd"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/tvPasswd"
+        android:src="@drawable/clear_btn_selector"
+        android:visibility="gone" />
+
+
+    <Button
+        android:id="@+id/ib_submit"
+        style="@style/EnterButtonStyle"
+        android:layout_below="@+id/tvPasswd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="@string/login" />
+
+
+</RelativeLayout>

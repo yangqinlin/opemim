@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/tab_icon"
+            android:paddingTop="8dp"
+            android:layout_width="23dp"
+            android:layout_height="23dp"/>
+
+        <TextView android:id="@+id/tab_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginTop="2dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tab_badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/tab_ic_di"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/tab_dot"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:src="@drawable/tab_ic_message_dian"
+        android:visibility="gone"/>
+</RelativeLayout>

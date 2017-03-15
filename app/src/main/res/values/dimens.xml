@@ -1,0 +1,57 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="title_height">48dp</dimen>
+    <dimen name="title_text_size">19sp</dimen>
+    <dimen name="text_size_media">16sp</dimen>
+    <dimen name="text_size_media_small">14sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_media_big">19sp</dimen>
+    <dimen name="panel_height">200dp</dimen>
+    <dimen name="s_chat_icon_size">20sp</dimen>
+    <dimen name="chat_avatar_size">40dp</dimen>
+    <dimen name="chat_disk_width">240dip</dimen>
+    <dimen name="chat_disk_height">80dip</dimen>
+    <dimen name="margin_chat_activity">5dp</dimen>
+
+    <dimen name="voice_line_width">1dp</dimen>
+    <dimen name="youban_record_big">100dp</dimen>
+    <dimen name="youban_record_small">78dp</dimen>
+
+
+    <dimen name="dialog_tips_num_height">78dp</dimen>
+    <dimen name="dialog_tips_textLine2_height">79dp</dimen>
+    <dimen name="dialog_tips_textLine2_width">110dp</dimen>
+    <dimen name="dialog_tips_text_spacing">4dp</dimen>
+    <dimen name="dialog_tips_textLine1_height">40dp</dimen>
+    <dimen name="dialog_tips_textLine1_width">145dp</dimen>
+    <dimen name="dialog_tips_textSize_small">16dp</dimen>
+    <dimen name="dialog_tips_textSize_mid">17dp</dimen>
+    <dimen name="dialog_tips_textSize_large">55dp</dimen>
+    <dimen name="dialog_cancel_width">272dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="smily_column_width">25dip</dimen>
+    <dimen name="commonDialogWidth">272dp</dimen>
+    <dimen name="dialogTitleSize">19sp</dimen>
+    <dimen name="dialogContentSize">15sp</dimen>
+    <dimen name="dialogTitleMarginLeft">6dp</dimen>
+    <dimen name="dialogTitleMarginTop">6dp</dimen>
+    <dimen name="dialogTitleMarginBottom">16dp</dimen>
+    <dimen name="dialogContentMarginLeft">6dp</dimen>
+    <dimen name="dialogContentMarginRight">6dp</dimen>
+    <dimen name="dialogContentSpacing">3dp</dimen>
+
+    <dimen name="chat_picture_size">140dp</dimen>
+    <dimen name="chat_picture_min_size">43dp</dimen>
+
+    <dimen name="login_et_width">180dp</dimen>
+    <dimen name="btn_width">300dp</dimen>
+    <dimen name="btn_height">45dp</dimen>
+
+    <dimen name="group_avatar_size">46dp</dimen>
+    <dimen name="group_avatar_buttomtext_max_width">50dp</dimen>
+    <dimen name="font_third_grade">12sp</dimen>
+</resources>

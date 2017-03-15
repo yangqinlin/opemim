@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#aeaeae</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="c_brand">#FB4455</color>
+    <color name="tab_text_color">#8b868d</color>
+    <color name="title_background">#ffffff</color>
+    <color name="title_pressed">#e3e3e3</color>
+    <color name="s_text_main_color">#222222</color>
+    <color name="c_dc">#DCDCDC</color>
+    <color name="white_press">#d7d7d7</color>
+    <color name="c_ff">#ffffff</color>
+    <color name="c_33">#333333</color>
+    <color name="c_99">#999999</color>
+    <color name="s_title_normal_color">#483a3c</color>
+    <color name="s_text_sub_main_color">#9a9a9a</color>
+    <color name="s_div_list_item_color">#cecece</color>
+    <color name="grey">#ffacacac</color>
+    <color name="chat_name">#9c9c9c</color>
+    <color name="voice_normal">#a4a3a3</color>
+    <color name="activity_bg">#f1f1f1</color>
+    <color name="c_voice_white">#f7919a</color>
+    <color name="c_voice_grey">#d1d1d1</color>
+    <color name="c_voice_brand">#f69aa3</color>
+    <color name="recordProgress_gray">#6f6f6f</color>
+    <color name="roundColor">#14ffffff</color>
+    <color name="commone_text_pressed">#F3F3F3</color>
+
+    <color name="smile_item_check">#33000000</color>
+    <color name="youban_emoj_color">#a6a6a6</color>
+    <color name="dialogTitleColor">@color/s_text_main_color</color>
+    <color name="dialogContentColor">@color/s_text_main_color</color>
+    <color name="dialog_bg_press">#dbdbdb</color>
+    <color name="btn_pressed_color">#fec3c4</color>
+    <color name="btn_normal_color">#f86d6f</color>
+    <color name="btn_unable_press_color">#fcabab</color>
+    <color name="btn_enter_text">#f6f6f6</color>
+    <color name="c_66">#666666</color>
+    <color name="title_text_color">@color/s_title_normal_color</color>
+
+</resources>

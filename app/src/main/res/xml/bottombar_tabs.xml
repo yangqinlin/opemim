@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_message"
+        icon="@drawable/ic_message_normal"
+        activeIcon="@drawable/ic_message_pressed"
+        title="@string/tab_message"
+        titleColor="@color/tab_text_color"
+        activeColor="@color/c_brand" />
+
+    <tab
+        id="@+id/tab_contacts"
+        icon="@drawable/ic_contacts_normal"
+        activeIcon="@drawable/ic_contacts_pressed"
+        title="@string/tab_contacts"
+        titleColor="@color/tab_text_color"
+        activeColor="@color/c_brand" />
+
+    <tab
+        id="@+id/tab_setting"
+        icon="@drawable/ic_center_normal"
+        activeIcon="@drawable/ic_center_pressed"
+        title="@string/tab_setting"
+        titleColor="@color/tab_text_color"
+        activeColor="@color/c_brand" />
+</tabs>

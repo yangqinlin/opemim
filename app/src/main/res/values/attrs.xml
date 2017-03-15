@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BottomBar">
+        <attr name="tabXmlResource" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="FontIcon">
+        <attr name="bold" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="SwitchButton">
+        <attr name="onDrawable" format="reference" />
+        <attr name="offDrawable" format="reference" />
+        <attr name="thumbDrawable" format="reference" />
+        <attr name="thumb_margin" format="dimension|reference" />
+        <attr name="thumb_marginTop" format="dimension|reference" />
+        <attr name="thumb_marginBottom" format="dimension|reference" />
+        <attr name="thumb_marginLeft" format="dimension|reference" />
+        <attr name="thumb_marginRight" format="dimension|reference" />
+        <attr name="thumb_expandTop" format="dimension|reference" />
+        <attr name="thumb_width" format="dimension|reference" />
+        <attr name="thumb_height" format="dimension|reference" />
+        <attr name="onColor" format="color|reference" />
+        <attr name="offColor" format="color|reference" />
+        <attr name="thumbColor" format="color|reference" />
+        <attr name="thumbPressedColor" format="color|reference" />
+        <attr name="animationVelocity" format="integer" />
+        <attr name="radius" format="integer" />
+        <attr name="measureFactor" format="float" />
+        <attr name="insetLeft" format="dimension|reference" />
+        <attr name="insetRight" format="dimension|reference" />
+        <attr name="insetTop" format="dimension|reference" />
+        <attr name="insetBottom" format="dimension|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RingProgressView">
+        <attr name="ringColor" format="color" />
+        <attr name="ringWidth" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundProgressBar">
+        <attr name="roundColor" format="color" />
+        <attr name="roundProgressColor" format="color" />
+        <attr name="roundWidth" format="dimension"></attr>
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="centerTextSize" format="dimension" />
+        <attr name="centerChineseTextSize" format="dimension" />
+        <attr name="max" format="integer"></attr>
+        <attr name="textIsDisplayable" format="boolean"></attr>
+        <attr name="type">
+            <enum name="STROKE" value="0"></enum>
+            <enum name="FILL" value="1"></enum>
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="AudioView">
+        <attr name="isAutoSend" format="boolean"/>
+        <attr name="recordMaxLength" format="integer"/>
+        <attr name="isBiDa" format="boolean"/>//是不是必达消息
+        <attr name="startColor" format="string"/>//自定义颜色起始颜色
+        <attr name="endColor" format="string"/>//自定义颜色结束颜色
+    </declare-styleable>
+
+
+    <declare-styleable name="VoiceView">
+        <attr name="maxHeight" format="dimension|reference"/>
+        <attr name="lineColor" format="color|reference"/>
+        <attr name="playColor" format="color|reference"/>
+        <attr name="lineWidth" format="dimension|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="CommonRound">
+        <attr name="commonRoundColor" format="color"/>
+        <attr name="commonRoundWidth" format="dimension"/>
+        <attr name="commonRoundType">
+            <enum name="STROKE" value="1"></enum>
+            <enum name="FILL" value="0"></enum>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SmileItem">
+        <attr name="resId" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension"/>
+        <attr name="civ_border_color" format="color"/>
+        <attr name="civ_border_overlay" format="boolean"/>
+        <attr name="civ_fill_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundedCornersImage">
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="cornerDirection" format="integer" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout style="@style/title_layout_style">
+
+        <com.shinemo.widget.fonticon.FontIcon
+            android:id="@+id/back"
+            style="@style/back_style" />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/title_textview_style" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            style="@style/title_right_style2"
+            android:text="@string/confirm" />
+
+    </RelativeLayout>
+
+    <include layout="@layout/divider" />
+
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/list"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

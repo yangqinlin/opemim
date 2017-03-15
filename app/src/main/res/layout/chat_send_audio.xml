@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/chat_item_style"
+    android:orientation="vertical">
+
+    <include layout="@layout/chat_common_item" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include android:visibility="gone" layout="@layout/chat_select_box" />
+
+        <com.shinemo.widget.image.CircleImageView
+            android:id="@+id/send_avatar"
+            android:layout_width="@dimen/chat_avatar_size"
+            android:layout_height="@dimen/chat_avatar_size"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop" />
+
+
+        <com.shinemo.widget.audio.progress.RecordProgressView
+            android:id="@+id/voice_bg"
+            style="@style/chat_left_avatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/send_status"
+            style="@style/chat_send_fail_style"
+            android:layout_toLeftOf="@+id/voice_bg" />
+
+        <ProgressBar
+            android:visibility="gone"
+            android:id="@+id/send_progress"
+            style="@style/chat_progress_style"
+            android:layout_toLeftOf="@+id/voice_bg" />
+
+        <TextView
+            android:id="@+id/unread_count"
+            style="@style/chat_unread_style"
+            android:layout_alignBottom="@+id/voice_bg"
+            android:layout_toLeftOf="@+id/voice_bg" />
+    </RelativeLayout>
+
+</LinearLayout>
